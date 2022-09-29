@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c122c;
+}
+.box1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.box1 i {
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: animate 4s linear infinite;
+}
+.box1 u {
+    position: absolute;
+    background: #1c122c;
+    inset: 4px;
+    border-radius: 16px;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box1 h2 {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    z-index: 10;
+    top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box1 p {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    z-index: 10;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.box2 i {
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: animate 4s linear infinite;
+}
+.box2 u {
+    position: absolute;
+    background: #1c122c;
+    inset: 4px;
+    border-radius: 16px;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box2 h2 {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    z-index: 10;
+    top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box2 p {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    z-index: 10;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.box3 i {
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: animate 4s linear infinite;
+}
+.box3 u {
+    position: absolute;
+    background: #1c122c;
+    inset: 4px;
+    border-radius: 16px;
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.box3 h2 {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    z-index: 10;
+    top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box3 p {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    z-index: 10;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
